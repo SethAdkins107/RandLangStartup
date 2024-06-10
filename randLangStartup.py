@@ -6,7 +6,6 @@ def changeLang(langList) :
 
 def main() :
     randNum = random.randint(1, 2)
-    randNum = 2
 
     if (randNum == 1):
         lList = '("es-MX", "en-US", "fr-FR")'
