@@ -2,7 +2,7 @@ import subprocess
 import random
 
 def changeLang(langList) :
-    subprocess.run(["powershell.exe", f"Set-WinUserLanguageList -Force {langList}"])
+    subprocess.run(["powershell.exe", f"Set-WinUserLanguageList -Force {langList} -wa SilentlyContinue -infa SilentlyContinue"])
 
 def main() :
     randNum = random.randint(1, 2)
